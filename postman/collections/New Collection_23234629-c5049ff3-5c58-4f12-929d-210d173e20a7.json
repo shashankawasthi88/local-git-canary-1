@@ -8,6 +8,18 @@
 	"item": [
 		{
 			"name": "Google.com",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "096f7cbf-e5ea-4126-9c1a-c07865a364d1",
+						"exec": [
+							"pm.globals.get(\"variable_key\");"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
 			"id": "0d7f56bf-6077-4fe2-aebf-0f5cec23ccbe",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
