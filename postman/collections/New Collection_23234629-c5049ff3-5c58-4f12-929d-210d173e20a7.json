@@ -38,5 +38,27 @@
 			},
 			"response": []
 		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "c554667c-4344-4c2c-8527-3968005f8df2",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "b636ab5f-0953-447d-8aeb-cfef487e1774",
+				"type": "text/javascript",
+				"exec": [
+					"pm.variables.get(\"variable_key\");"
+				]
+			}
+		}
 	]
 }
